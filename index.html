@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Smarbot</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <h1 align = "center">  SmartB📀T </h1>
+    <div class = "container">
+       <p class = "text">A project by GROUP 40</p></div>
+    <div class="chat-container">
+        <div class="chat-box">
+            <div id="chat-output"></div>
+        </div>
+        <input id="user-input" type="text" placeholder="Tell SmartBOT your problems...">
+        <button id="send-button">👍</button>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
